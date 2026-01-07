@@ -11,7 +11,7 @@
   --card-foreground: oklch(0.25 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.25 0 0);
-  --primary: oklch(0.47 0.25 25); /* Bright red matching reference #DC0A2D */
+  --primary: #282660; /* Primary brand color */
   --primary-foreground: oklch(1 0 0); /* White text on red */
   --secondary: oklch(0.96 0 0); /* Light gray */
   --secondary-foreground: oklch(0.25 0 0);
@@ -47,7 +47,7 @@
   --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.145 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.48 0.24 25);
+  --primary: #282660;
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
