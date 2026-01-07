@@ -16,28 +16,28 @@ export function Footer() {
             </h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li>
-                <Link href="#about" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> About Us
+                <Link href="#about" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> About Us
                 </Link>
               </li>
               <li>
-                <Link href="#blog" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Blog
+                <Link href="#blog" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Blog
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Services
+                <Link href="#services" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Services
                 </Link>
               </li>
               <li>
-                <Link href="#privacy-policy" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Privacy Policy
+                <Link href="#privacy-policy" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#projects" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Projects
+                <Link href="#projects" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Projects
                 </Link>
               </li>
             </ul>
@@ -51,28 +51,28 @@ export function Footer() {
             </h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li>
-                <Link href="#help-desk" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Help Desk
+                <Link href="#help-desk" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Help Desk
                 </Link>
               </li>
               <li>
-                <Link href="#shop" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Shop
+                <Link href="#shop" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Shop
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Contact
+                <Link href="#contact" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Contact
                 </Link>
               </li>
               <li>
-                <Link href="#portfolio" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Portfolio
+                <Link href="#portfolio" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="#team" className="hover:text-primary transition-colors flex items-center gap-2">
-                  <span className="text-primary">›</span> Team
+                <Link href="#team" className="hover:text-card transition-colors flex items-center gap-2">
+                  <span className="text-card">›</span> Team
                 </Link>
               </li>
             </ul>
@@ -87,7 +87,7 @@ export function Footer() {
             <ul className="space-y-6 text-gray-400 text-sm">
               <li className="flex items-start gap-4 group">
                 <div className="w-10 h-10 rounded bg-white/5 flex items-center justify-center group-hover:bg-primary transition-all duration-300">
-                  <MapPin className="w-5 h-5 text-primary group-hover:text-white" />
+                  <MapPin className="w-5 h-5 text-card group-hover:text-white" />
                 </div>
                 <div>
                   <p className="font-bold text-gray-300 mb-1">ADDRESS</p>
@@ -98,7 +98,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="w-10 h-10 rounded bg-white/5 flex items-center justify-center group-hover:bg-primary transition-all duration-300">
-                  <Phone className="w-5 h-5 text-primary group-hover:text-white" />
+                  <Phone className="w-5 h-5 text-card group-hover:text-white" />
                 </div>
                 <div>
                   <p className="font-bold text-gray-300 mb-1">PHONE</p>
@@ -107,7 +107,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="w-10 h-10 rounded bg-white/5 flex items-center justify-center group-hover:bg-primary transition-all duration-300">
-                  <Mail className="w-5 h-5 text-primary group-hover:text-white" />
+                  <Mail className="w-5 h-5 text-card group-hover:text-white" />
                 </div>
                 <div>
                   <p className="font-bold text-gray-300 mb-1">EMAIL</p>

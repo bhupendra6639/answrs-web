@@ -14,7 +14,7 @@ export function ContactSection() {
       <div className="container relative mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 sm:p-6 md:p-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-white/80">Your Name</Label>
                 <Input id="name" placeholder="Your Name" className="bg-white/5 border-white/10 text-white placeholder:text-white/50" />
