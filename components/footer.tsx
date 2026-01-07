@@ -3,11 +3,11 @@ import { MapPin, Phone, Mail, Facebook, Twitter, Linkedin, Instagram, ArrowUp, S
 
 export function Footer() {
   return (
-    <footer className="bg-[#0a0a0a] text-white pt-24 pb-12 relative overflow-hidden">
+    <footer className="bg-[#0a0a0a] text-white pt-6 pb-6 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-6">
           {/* Company */}
           <div>
             <h3 className="text-lg font-bold mb-8 uppercase tracking-widest relative inline-block">

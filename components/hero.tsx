@@ -8,7 +8,8 @@ import { Settings } from "lucide-react"
 
 export function Hero() {
   return (
-    <section id="home" className="relative h-[520px] sm:h-[620px] md:h-[700px] lg:h-[760px] flex items-center overflow-hidden">
+    <section id="home" className="scroll-mt-[80px]
+    md:scroll-mt-[100px] relative h-[520px] sm:h-[620px] md:h-[700px] lg:h-[760px] flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-industrial-lubrication-facility.jpg"

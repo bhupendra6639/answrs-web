@@ -138,8 +138,12 @@
   body {
     overflow-x: hidden;
     min-height: 100%;
+    overscroll-behavior-y: none;
   }
 }
+
+
+
 
 
 @layer utilities {

@@ -24,7 +24,8 @@ export function ServicesGrid() {
   ]
 
   return (
-    <section id="services" className="py-14 bg-gray-50 overflow-hidden">
+    <section id="services" className="scroll-mt-[65px]
+    md:scroll-mt-[90px] py-14 bg-gray-50 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Our Services</h2>

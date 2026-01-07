@@ -27,7 +27,8 @@ export function BlogSection() {
   ]
 
   return (
-    <section id="blog" className="py-14 bg-white overflow-hidden">
+    <section id="blog" className="scroll-mt-[70px]
+    md:scroll-mt-[80px] py-14 bg-white overflow-hidden">
       <div className="container mx-auto px-4 text-center mb-16">
         <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Latest Blog</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
