@@ -26,7 +26,7 @@ export function Navbar() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16 sm:h-18 lg:h-20">
             <Link href="/" className="flex items-center gap-2">
-              <img src="/answrs-r logo.png" alt="Logo" className="h-10 sm:h-12 md:h-16 lg:h-20 w-auto" />
+              <img src="/answrs-r logo.png" alt="Logo" className="h-10 sm:h-12 md:h-16 lg:h-14 w-auto" />
             </Link>
 
             <div className="hidden lg:flex items-center gap-6 text-[11px] font-bold text-gray-900 uppercase tracking-wider">
@@ -39,7 +39,7 @@ export function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <Link href="#" className="hover:text-primary flex items-center gap-1">
+              <Link href="#contact" className="hover:text-primary flex items-center gap-1">
                 Contact Us
               </Link>
             </div>
@@ -77,7 +77,7 @@ export function Navbar() {
                   </Link>
                 ))}
                 <Link
-                  href="#"
+                  href="#contact"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="hover:text-primary transition-colors border-b border-gray-100 pb-2"
                 >
