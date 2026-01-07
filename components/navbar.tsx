@@ -20,48 +20,13 @@ export function Navbar() {
 
   return (
     <header className="w-full sticky top-0 z-50 shadow-sm">
-      {/* Top bar */}
-      {/* <div className="bg-gray-100 border-b hidden md:block">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-12 text-sm text-gray-700">
-            <div className="flex items-center gap-6">
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary" />
-                <span>+00 1234 5678 90</span>
-              </div>
-              <div className="flex items-center gap-2 border-l pl-6 border-gray-300">
-                <Mail className="w-4 h-4 text-primary" />
-                <span>info@example.com</span>
-              </div>
-              <div className="flex items-center gap-2 border-l pl-6 border-gray-300">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>8273 NW 56th ST Miami, Florida</span>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <Facebook className="w-4 h-4 hover:text-primary cursor-pointer transition-colors" />
-              <Twitter className="w-4 h-4 hover:text-primary cursor-pointer transition-colors" />
-              <Instagram className="w-4 h-4 hover:text-primary cursor-pointer transition-colors" />
-              <Linkedin className="w-4 h-4 hover:text-primary cursor-pointer transition-colors" />
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+      
       {/* Main navbar */}
       <nav className="bg-white border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-2">
-              <div className="relative w-10 h-10 bg-primary flex items-center justify-center">
-                <Factory className="text-white w-6 h-6" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-2xl leading-none text-gray-900 tracking-tight">ANSWRS</span>
-                <span className="text-[10px] font-medium text-gray-500 uppercase tracking-[2px]">
-                  Factory & Industrial
-                </span>
-              </div>
+              <img src="/answrs-r logo.png" alt="Logo" className="w-30 h-20" />
             </Link>
 
             <div className="hidden lg:flex items-center gap-6 text-[11px] font-bold text-gray-900 uppercase tracking-wider">
