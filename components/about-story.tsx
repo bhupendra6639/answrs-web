@@ -18,7 +18,7 @@ export function AboutStory() {
             className="relative h-[600px] border-[15px] border-gray-50"
           >
             <Image
-              src="/images/about-production-machinery-workers.jpg"
+              src="/images/p4.png"
               alt="Industrial workers"
               fill
               className="object-cover"
@@ -33,20 +33,18 @@ export function AboutStory() {
             transition={{ duration: 0.8 }}
           >
             <div className="inline-block bg-primary px-4 py-1 text-[10px] font-bold text-white mb-6 uppercase tracking-widest">
-              OUR STORY
+              ANSWRS Journey
             </div>
             <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Trusted Factory <br />
-              Solutions <span className="italic font-script text-primary lowercase">since 1955</span>
+              Solutions <span className="italic font-script text-primary lowercase">since 1977</span>
             </h2>
             <p className="text-gray-500 text-lg font-medium mb-6">
               We are committed to provide safe <br />
               industrial solutions to many factories.
             </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-10 max-w-lg">
-              Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the
-              industry's standard printer took a galley of type and scrambled it to make a type specimen book. Lorem
-              ipsum is simply dummy text of the printing and typesetting Factory.
+              Answrs Started as a Centerlised Lubrication Systems company, one of the few Indian companies. In India providing world class lubrication technology built in India at an effective cost.
             </p>
 
             <Button className="bg-primary text-white hover:bg-primary/90 rounded-none px-8 py-6 h-auto font-bold text-xs tracking-widest uppercase">

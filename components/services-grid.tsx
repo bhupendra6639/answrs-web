@@ -30,8 +30,7 @@ export function ServicesGrid() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Our Services</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard
-            dummy text ever since the been when an unknown printer.
+            We design and engineer lubrication solutions that keep your critical machinery running longer and safer.
           </p>
         </div>
 

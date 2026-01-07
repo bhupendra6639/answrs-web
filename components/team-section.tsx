@@ -33,8 +33,8 @@ export function TeamSection() {
         <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Meet The Team</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
-          Lorem ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard
-          dummy text ever since the been when an unknown printer.
+          A multidisciplinary team of engineers and specialists focused on turning complex lubrication problems into
+          clear, reliable answers.
         </p>
       </div>
 
