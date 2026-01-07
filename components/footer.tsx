@@ -166,9 +166,12 @@ export function Footer() {
         </div>
       </div>
 
-      <button className="fixed bottom-8 right-8 w-12 h-12 bg-[#222] text-white flex items-center justify-center hover:bg-primary transition-colors z-50">
+      <Link
+        href="#home"
+        className="fixed bottom-8 right-8 w-12 h-12 bg-[#222] text-white flex items-center justify-center hover:bg-primary transition-colors z-50"
+      >
         <ArrowUp className="w-6 h-6" />
-      </button>
+      </Link>
     </footer>
   )
 }
