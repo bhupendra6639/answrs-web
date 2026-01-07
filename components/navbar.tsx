@@ -24,9 +24,9 @@ export function Navbar() {
       {/* Main navbar */}
       <nav className="bg-white border-b">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-16 sm:h-18 lg:h-20">
             <Link href="/" className="flex items-center gap-2">
-              <img src="/answrs-r logo.png" alt="Logo" className="w-30 h-20" />
+              <img src="/answrs-r logo.png" alt="Logo" className="h-10 sm:h-12 md:h-16 lg:h-20 w-auto" />
             </Link>
 
             <div className="hidden lg:flex items-center gap-6 text-[11px] font-bold text-gray-900 uppercase tracking-wider">
