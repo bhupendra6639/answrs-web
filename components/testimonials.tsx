@@ -54,7 +54,8 @@ export function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="py-12 bg-gray-50 overflow-hidden">
+    <section id="testimonials" className="scroll-mt-[70px]
+    md:scroll-mt-[90px] py-12 bg-gray-50 overflow-hidden">
       <div className="container mx-auto px-4 text-center mb-16">
         <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Testimonials</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>

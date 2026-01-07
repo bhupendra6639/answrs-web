@@ -6,7 +6,8 @@ import { Mail, MapPin, Phone } from "lucide-react"
 
 export function ContactSection() {
   return (
-    <section id="contact" className="relative py-12 md:py-16 bg-slate-900">
+    <section id="contact" className="scroll-mt-[70px]
+    md:scroll-mt-[100px]relative py-12 md:py-16 bg-slate-900">
       <div className="absolute inset-0 pointer-events-none opacity-[0.12]" aria-hidden>
         <div className="h-full w-full bg-[radial-gradient(circle_at_1px_1px,white_1px,transparent_1px)] [background-size:24px_24px]" />
       </div>

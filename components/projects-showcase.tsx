@@ -24,7 +24,8 @@ export function ProjectsShowcase() {
   ]
 
   return (
-    <section id="projects" className="py-16 bg-[#1a1a1a] overflow-hidden">
+    <section id="projects" className="scroll-mt-[80px]
+    md:scroll-mt-[80px] py-11 bg-[#1a1a1a] overflow-hidden">
       <div className="container mx-auto px-4 text-center mb-16">
         <h2 className="text-4xl font-bold text-white mb-4 uppercase tracking-tight">Our Project</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
