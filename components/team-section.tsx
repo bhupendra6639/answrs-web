@@ -28,7 +28,7 @@ export function TeamSection() {
   ]
 
   return (
-    <section id="team" className="py-24 bg-white overflow-hidden">
+    <section id="team" className="py-16 bg-white overflow-hidden">
       <div className="container mx-auto px-4 text-center mb-16">
         <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Meet The Team</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>

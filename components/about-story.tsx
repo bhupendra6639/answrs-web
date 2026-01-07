@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export function AboutStory() {
   return (
-    <section id="about" className="py-24 bg-white overflow-hidden">
+    <section id="about" className="py-8 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Image column */}
