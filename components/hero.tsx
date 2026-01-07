@@ -27,9 +27,7 @@ export function Hero() {
             transition={{ duration: 0.8 }}
             className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight"
           >
-            Fast and Reliable
-            <br />
-            Electrical services
+            Answers that Outperform
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -37,8 +35,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-base sm:text-lg text-white/90 mb-6 sm:mb-10 max-w-xl leading-relaxed"
           >
-            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the
-            industry's standard dummy text ever since the 1500s.
+            We constantly seek answers to make your lubrication system-design achieve desired goals & metrics
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
