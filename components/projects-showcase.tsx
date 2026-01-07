@@ -6,20 +6,20 @@ import { motion } from "framer-motion"
 export function ProjectsShowcase() {
   const projects = [
     {
-      title: "Power and Energy",
-      image: "/images/project-power-energy-lubrication.jpg",
+      title: "Motorised Lubrication Units",
+      image: "/images/m1.jpg",
     },
     {
-      title: "Oil and Gas",
-      image: "/images/project-oil-gas-systems.jpg",
+      title: "Metering Cartidges",
+      image: "/images/m2.jpg",
     },
     {
-      title: "Agricultural Engineering",
-      image: "/images/project-agricultural-machinery.jpg",
+      title: "Manual Pumps ",
+      image: "/images/m6.jpg",
     },
     {
-      title: "Rocky Forge Refinary",
-      image: "/images/project-refinery-lubrication.jpg",
+      title: "Bucket Grease Pumps",
+      image: "/images/m5.jpg",
     },
   ]
 
@@ -27,11 +27,11 @@ export function ProjectsShowcase() {
     <section id="projects" className="scroll-mt-[80px]
     md:scroll-mt-[80px] py-11 bg-[#1a1a1a] overflow-hidden">
       <div className="container mx-auto px-4 text-center mb-16">
-        <h2 className="text-4xl font-bold text-white mb-4 uppercase tracking-tight">Our Project</h2>
+        <h2 className="text-4xl font-bold text-white mb-4 uppercase tracking-tight">Our Products</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-gray-400 text-sm max-w-xl mx-auto leading-relaxed">
-          Lorem ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard
-          dummy text ever since the been when an unknown printer.
+          From pumps to metering cartridges, our hardware is built to deliver consistent lubrication in harsh
+          industrial conditions.
         </p>
       </div>
 

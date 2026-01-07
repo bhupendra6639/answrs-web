@@ -10,19 +10,19 @@ export function BlogSection() {
       title: "Seven Doubts You Should",
       date: "10 AUG 2016",
       author: "JACK",
-      image: "/images/blog-lubrication-1.jpg",
+      image: "/images/p1.png",
     },
     {
       title: "The Shocking Revelation",
       date: "11 AUG 2016",
       author: "ZACHARY",
-      image: "/images/blog-lubrication-2.jpg",
+      image: "/images/p2.png",
     },
     {
       title: "The Story Of Industry",
       date: "12 AUG 2016",
       author: "CHARLOTTE",
-      image: "/images/blog-lubrication-3.jpg",
+      image: "/images/p3.png",
     },
   ]
 
@@ -33,8 +33,7 @@ export function BlogSection() {
         <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase tracking-tight">Latest Blog</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
-          Lorem ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard
-          dummy text ever since the been when an unknown printer.
+          Insights, field learnings and practical guidance from real lubrication projects and industrial sites.
         </p>
       </div>
 
@@ -66,8 +65,7 @@ export function BlogSection() {
                 {post.title}
               </h3>
               <p className="text-gray-400 text-xs mb-6 leading-relaxed">
-                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                this the first true.
+                Short, practical ideas you can apply directly to improve reliability on your own lines and equipment.
               </p>
               <button className="flex items-center gap-2 bg-primary text-white px-4 py-2 text-[10px] font-bold uppercase tracking-widest hover:bg-primary/90 transition-colors">
                 READ MORE <ArrowRight className="w-3 h-3" />

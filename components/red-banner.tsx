@@ -10,7 +10,7 @@ export function RedBanner() {
               Amazing things happen to your business
             </h2>
             <p className="text-white/80 text-sm md:text-base">
-              Lorem ipsum is simply dummy text of the printing and typesetting industry.
+              When assets run smoother and downtime drops, every shift becomes more productive.
             </p>
           </div>
           <Button
