@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Industry - Factory & Industrial Solutions',
+  title: 'ANSWRS - Factory & Industrial Solutions',
   description: 'Fast and Reliable Electrical Services - Global leaders in industrial infrastructure since 1955',
   generator: 'v0.app',
   icons: {
