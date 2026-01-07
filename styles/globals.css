@@ -122,4 +122,74 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Swiper glow effect */
+  .swiper-slide-active img {
+    animation: pulse-glow 1.8s infinite;
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    opacity: 0.7;
+    transition: all 0.4s ease-in-out;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    min-height: 100%;
+  }
+}
+
+
+@layer utilities {
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin-reverse {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  @keyframes pageTransition {
+    0% {
+      transform: translateY(100%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      transform: scale(1.2);
+      box-shadow: 0 0 15px rgb(255, 255, 255);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.15);
+      box-shadow: 0 0 25px rgb(255, 255, 255);
+      opacity: 1;
+    }
+  }
+
+  .animate-pageTransition {
+    animation: pageTransition 0s ease-in-out forwards;
+  }
+
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+
+  .animate-spin-reverse {
+    animation: spin-reverse 1s linear infinite;
+  }
 }
