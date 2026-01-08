@@ -39,11 +39,12 @@ export function Hero() {
             We constantly seek answers to make your lubrication system-design achieve desired goals & metrics
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-wrap gap-3 sm:gap-4"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="flex flex-nowrap justify-center lg:justify-start gap-3 sm:gap-4"
           >
+
             <Button
               size="lg"
               className="bg-primary text-white hover:bg-primary/90 px-10 h-14 font-bold rounded-none uppercase tracking-wider"
