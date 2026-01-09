@@ -150,7 +150,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-bold text-gray-500 uppercase tracking-[2px]">
-          <p>Copyright © 2026 Rbrickks Technology. all rights reserved.</p>
+          <p>Copyright © 2026 DesignZone. all rights reserved.</p>
           <div className="flex gap-6">
             {["About", "Help Desk", "Privacy Policy"].map((text, i) => (
               <Link
