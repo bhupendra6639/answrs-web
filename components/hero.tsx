@@ -68,11 +68,6 @@ export function Hero() {
       <button className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-12 items-center justify-center text-white/50 hover:text-white transition-colors">
         <ChevronRight className="w-10 h-10" />
       </button>
-
-      {/* Setting indicator wheels on side */}
-      <div className="hidden sm:flex absolute left-0 top-1/3 z-30 p-2 bg-white/10 backdrop-blur-sm border-y border-r border-white/20">
-        <Settings className="w-5 h-5 text-white animate-spin-slow" />
-      </div>
     </section>
   )
 }

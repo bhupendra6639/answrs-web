@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export function BlogSection() {
   const posts = [
@@ -67,9 +68,9 @@ export function BlogSection() {
               <p className="text-gray-400 text-xs mb-6 leading-relaxed">
                 Short, practical ideas you can apply directly to improve reliability on your own lines and equipment.
               </p>
-              <button className="flex items-center gap-2 bg-primary text-white px-4 py-2 text-[10px] font-bold uppercase tracking-widest hover:bg-primary/90 transition-colors">
+              <Button size="sm" className="text-[10px] font-bold uppercase tracking-widest">
                 READ MORE <ArrowRight className="w-3 h-3" />
-              </button>
+              </Button>
             </motion.div>
           ))}
         </div>
