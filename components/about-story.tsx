@@ -3,6 +3,8 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { ArrowRight } from "lucide-react"
+
 
 export function AboutStory() {
   return (
@@ -48,8 +50,8 @@ export function AboutStory() {
               Answrs Started as a Centerlised Lubrication Systems company, one of the few Indian companies. In India providing world class lubrication technology built in India at an effective cost.
             </p>
 
-            <Button className="bg-primary text-white hover:bg-primary/90 rounded-none px-8 py-6 h-auto font-bold text-xs tracking-widest uppercase">
-              READ MORE
+            <Button className="text-[10px] font-bold uppercase tracking-widest">
+                READ MORE <ArrowRight className="w-3 h-3" />
             </Button>
           </motion.div>
         </div>
